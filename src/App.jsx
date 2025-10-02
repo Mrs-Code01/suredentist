@@ -123,6 +123,7 @@ const App = () => {
       .admin-container{
         padding:2rem;
       }
+      .form-input, .form-select, .form-textarea { padding: 1rem; background: rgba(15, 23, 42, 0.8); border: 2px solid rgba(148, 163, 184, 0.2); border-radius: 12px; font-size: 1rem; color: #fff; font-family: inherit; transition: all 0.3s; width:100%; display:block;}
     `;
     document.head.appendChild(style);
     return () => document.head.removeChild(style);
